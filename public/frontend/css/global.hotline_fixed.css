@@ -1,0 +1,120 @@
+.show_hotline_fixed {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 99;
+}
+.show_hotline_fixed ul {
+	position: relative;
+	flex-direction: column;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.show_hotline_fixed ul li {
+	position: relative;
+	display: block;
+	margin: 0 0 5px;
+	padding: 0;
+	float: right;
+	clear: both;
+}
+.show_hotline_fixed ul li.big {
+	margin: 0px 0 5px;
+}
+.show_hotline_fixed ul li .hidehotline {
+	display: none;
+}
+.show_hotline_fixed ul li .simage {
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	z-index: 2;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.6) !important;
+}
+.show_hotline_fixed ul li.big .simage {
+	margin: 0;
+	padding: 2px 0;
+	width: 60px;
+	height: 60px;
+}
+.show_hotline_fixed ul li .simage img {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	max-width: 35px;
+}
+
+.show_hotline_fixed ul li .stitle {
+	z-index: 1;
+	margin: 8px 0 0 -50px;
+	padding: 8px 60px 8px 20px;
+	position: absolute;
+	right: -400px;
+	top: 0;
+	background-color: #1a8745;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	white-space: nowrap;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	color: #fff;
+}
+.show_hotline_fixed ul li :hover .stitle {
+	right: 0px;
+}
+.show_hotline_fixed ul li .stitle span {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	font-size: 20px;
+	line-height: 10px;
+	font-weight: 600;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.show_hotline_fixed ul li .stitle:hover {
+	color: #f9eaf0;
+}
+.show_hotline_fixed ul li .stitle:hover span {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+@media (max-width: 767px) {
+	.show_hotline_fixed {
+		top: unset !important;
+		right: 5px !important;
+		bottom: 0 !important;
+		display: table;
+		margin: 0 0 1rem;
+		width: auto;
+	}
+	.show_hotline_fixed ul {
+		display: flex;
+		flex-direction: row;
+	}
+	.show_hotline_fixed ul li {
+		margin: 0;
+		padding: 0 0.2rem;
+		opacity: 0.8;
+	}
+	.show_hotline_fixed ul li .stitle {
+		display: none;
+	}
+}
+
+@media (max-width: 499px) {
+}

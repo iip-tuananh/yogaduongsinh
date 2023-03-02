@@ -1,0 +1,27 @@
+.show_contact {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.show_contact .item {
+	box-sizing: border-box;
+	width: 100%;
+	border-top-width: 5px !important;
+	border-bottom-width: 5px !important;
+	padding-top: 12% !important;
+	padding-bottom: 10% !important;
+	border-top-color: #d1dbe9 !important;
+	border-top-style: solid !important;
+	border-bottom-color: #d1dbe9 !important;
+	border-bottom-style: solid !important;
+	margin-bottom: 20px;
+}
+.show_contact .item span {
+	float: left;
+	padding-right: 20px;
+}
+.show_contact .item h4 {color: #ffffff;}
+@media (max-width: 767px) {
+}

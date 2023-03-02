@@ -1,0 +1,18 @@
+.show_hotline {
+    top: 0 !important;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 99;
+    text-align: right;
+}
+
+.show_hotline a {
+    color: #ffffff;
+}
+
+.show_hotline span {
+    position: relative;
+    color: #fff;
+}

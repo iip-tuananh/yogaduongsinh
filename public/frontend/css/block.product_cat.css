@@ -1,0 +1,242 @@
+.block_catshop {
+	position: relative;
+	margin: 40px 0;
+	padding: 0;
+	width: 100%;
+}
+.block_catshop .readall {
+	position: absolute;
+	top: -45px;
+	right: 0;
+	margin: 0px;
+	padding: 0;
+	width: auto;
+	z-index: 9;
+}
+.block_catshop .readall a {
+	margin: 0px;
+	padding: 0 0 0 40px;
+	font-size: 18px;
+	background-image: url('../../images/bx-right.png');
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+}
+.block_catshop .readall a:hover {
+	color: #baac73;
+	background-position: 7px 1px;
+}
+.block_catshop .item_first {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 344px;
+}
+.block_catshop .item_first:hover {
+	box-shadow: 0 3px 5px rgba(0,0,0,.2) !important;
+}
+.block_catshop .item_first img {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: auto;
+	width: auto;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+	backface-visibility: hidden;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transform: translateZ(0px);
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+.block_catshop .item_first:hover img {
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+.block_catshop .list_item {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+.block_catshop .list_item .item {
+	position: relative;
+	margin: 0 0 20px;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	min-height: 344px;
+}
+.block_catshop .list_item .item:hover {
+	box-shadow: 0 3px 5px rgba(0,0,0,.2) !important;
+}
+.block_catshop .list_item .item .i_image {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 200px;
+}
+.block_catshop .list_item .item .i_image img {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+	backface-visibility: hidden;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transform: translateZ(0px);
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+.block_catshop .list_item .item .i_content {
+	position: relative;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+.block_catshop .item .i_content h4 {
+	position: relative;
+	margin: 0 0 10px;
+	padding: 0px;
+}
+.block_catshop .list_item .item .i_content .hometext {
+	position: relative;
+	margin: 5px 0 10px;
+	padding: 0px;
+	width: 100%;
+	line-height: 18px;
+}
+.block_catshop .list_item .item .i_content .showprice {
+	position: relative;
+	margin: 0 0 10px;
+	padding: 0px;
+	width: 100%;
+}
+.block_catshop .list_item .item .i_content .showprice .price {
+	font-size: 18px;
+	color: #c60000;
+}
+.block_catshop .list_item .item .i_content .showorder {
+	position: relative;
+	margin: 0 0 20px;
+	padding: 0px;
+	width: 100%;
+}
+
+.block_catshop .bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+	left: 0px;
+	background: transparent;
+}
+.block_catshop .bx-wrapper .bx-controls-direction a {
+	margin-top: -16px;
+	width: 34px;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #e7e1ca;
+	opacity: 0.5;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.block_catshop .bx-wrapper .bx-controls-direction a:hover {
+	opacity: 1;
+}
+.block_catshop .bx-wrapper {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: 0;
+	border: 0;
+	background: transparent;
+	position: relative;
+	margin: 0 auto 0px;
+	padding: 0;
+	*zoom: 1;
+}
+.block_catshop .bx-wrapper .bx-prev {
+	left: 0px;
+	background: url('../../images/bx-left.png');
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+}
+.block_catshop .bx-wrapper .bx-next {
+	right: 0px;
+	background: url('../../images/bx-right.png');
+	background-color: rgba(0, 0, 0, 0);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+}
+.block_catshop .bx-wrapper .bx-pager.bx-default-pager a {
+	background: transparent;
+	border: 1px solid #649428;
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+@media (max-width: 767px) {
+	.block_catshop .list_item .row {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.block_catshop .list_item .col-xs-1, .block_catshop .list_item .col-sm-1, .block_catshop .list_item .col-md-1, .block_catshop .list_item .col-lg-1, .block_catshop .list_item .col-xs-2, .block_catshop .list_item .col-sm-2, .block_catshop .list_item .col-md-2, .block_catshop .list_item .col-lg-2, .block_catshop .list_item .col-xs-3, .block_catshop .list_item .col-sm-3, .block_catshop .list_item .col-md-3, .block_catshop .list_item .col-lg-3, .block_catshop .list_item .col-xs-4, .block_catshop .list_item .col-sm-4, .block_catshop .list_item .col-md-4, .block_catshop .list_item .col-lg-4, .block_catshop .list_item .col-xs-5, .block_catshop .list_item .col-sm-5, .block_catshop .list_item .col-md-5, .block_catshop .list_item .col-lg-5, .block_catshop .list_item .col-xs-6, .block_catshop .list_item .col-sm-6, .block_catshop .list_item .col-md-6, .block_catshop .list_item .col-lg-6, .block_catshop .list_item .col-xs-7, .block_catshop .list_item .col-sm-7, .block_catshop .list_item .col-md-7, .block_catshop .list_item .col-lg-7, .block_catshop .list_item .col-xs-8, .block_catshop .list_item .col-sm-8, .block_catshop .list_item .col-md-8, .block_catshop .list_item .col-lg-8, .block_catshop .list_item .col-xs-9, .block_catshop .list_item .col-sm-9, .block_catshop .list_item .col-md-9, .block_catshop .list_item .col-lg-9, .block_catshop .list_item .col-xs-10, .block_catshop .list_item .col-sm-10, .block_catshop .list_item .col-md-10, .block_catshop .list_item .col-lg-10, .block_catshop .list_item .col-xs-11, .block_catshop .list_item .col-sm-11, .block_catshop .list_item .col-md-11, .block_catshop .list_item .col-lg-11, .block_catshop .list_item .col-xs-12, .block_catshop .list_item .col-sm-12, .block_catshop .list_item .col-md-12, .block_catshop .list_item .col-lg-12, .block_catshop .list_item .col-xs-13, .block_catshop .list_item .col-sm-13, .block_catshop .list_item .col-md-13, .block_catshop .list_item .col-lg-13, .block_catshop .list_item .col-xs-14, .block_catshop .list_item .col-sm-14, .block_catshop .list_item .col-md-14, .block_catshop .list_item .col-lg-14, .block_catshop .list_item .col-xs-15, .block_catshop .list_item .col-sm-15, .block_catshop .list_item .col-md-15, .block_catshop .list_item .col-lg-15, .block_catshop .list_item .col-xs-16, .block_catshop .list_item .col-sm-16, .block_catshop .list_item .col-md-16, .block_catshop .list_item .col-lg-16, .block_catshop .list_item .col-xs-17, .block_catshop .list_item .col-sm-17, .block_catshop .list_item .col-md-17, .block_catshop .list_item .col-lg-17, .block_catshop .list_item .col-xs-18, .block_catshop .list_item .col-sm-18, .block_catshop .list_item .col-md-18, .block_catshop .list_item .col-lg-18, .block_catshop .list_item .col-xs-19, .block_catshop .list_item .col-sm-19, .block_catshop .list_item .col-md-19, .block_catshop .list_item .col-lg-19, .block_catshop .list_item .col-xs-20, .block_catshop .list_item .col-sm-20, .block_catshop .list_item .col-md-20, .block_catshop .list_item .col-lg-20, .block_catshop .list_item .col-xs-21, .block_catshop .list_item .col-sm-21, .block_catshop .list_item .col-md-21, .block_catshop .list_item .col-lg-21, .block_catshop .list_item .col-xs-22, .block_catshop .list_item .col-sm-22, .block_catshop .list_item .col-md-22, .block_catshop .list_item .col-lg-22, .block_catshop .list_item .col-xs-23, .block_catshop .list_item .col-sm-23, .block_catshop .list_item .col-md-23, .block_catshop .list_item .col-lg-23, .block_catshop .list_item .col-xs-24, .block_catshop .list_item .col-sm-24, .block_catshop .list_item .col-md-24, .block_catshop .list_item .col-lg-24 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.block_catshop .list_item .item {
+		min-height: 210px;
+	}
+	.block_catshop .list_item .item .i_image img {
+		margin: 0;
+		padding: 0;
+	}
+	.block_catshop .list_item .item .i_content {
+		padding: 5px;
+	}
+	.block_catshop .item .i_content h4 {
+		font-size: 16px;
+	}
+	.block_catshop .list_item .item .i_image {
+		height: 170px;
+	}
+}
+@media (max-width: 460px) {
+	.block_catshop .item_first {
+		height: 200px;
+	}
+
+}
