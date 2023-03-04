@@ -14,20 +14,21 @@
                             <h4>Liên Hệ</h4>
                             <ul>
                                 @if (isset($setting->phone1))
-                                    <li><a style="color: white " href="tel+{{ $setting->phone1 }}">{{ $setting->phone1 }}</a></li>
+                                    <li><a style="color: white; text-transform: uppercase;" href="tel+{{ $setting->phone1 }}"><i class="fa-solid fa-phone"></i>&nbsp;{{ $setting->phone1 }}</a></li>
                                 @endif
                                 {{-- @if (isset($setting->phone2))
                                     <li><a style="color: white "  href="tel+{{ $setting->phone2 }}">{{ $setting->phone2 }}</a></li>
                                 @endif --}}
                                 @if (isset($setting->address1))
-                                    <li><a style="color: white " href="tel+{{ $setting->address1 }}">{{ $setting->address1 }}</a></li>
+                                    <li><a style="color: white ;text-transform: uppercase;" href="tel+{{ $setting->address1 }}"><i class="fa-solid fa-map-location-dot"></i>&nbsp;&nbsp;&nbsp;{{ $setting->address1 }}</a></li>
                                 @endif
                                 @if (isset($setting->address2))
-                                    <li><a style="color: white " href="tel+{{ $setting->address2 }}">{{ $setting->address2 }}</a></li>
+                                    <li><a style="color: white ;text-transform: uppercase;" href="tel+{{ $setting->address2 }}"><i class="fa-solid fa-map-location-dot"></i>&nbsp;&nbsp;&nbsp;{{ $setting->address2 }}</a></li>
                                 @endif
                                 @if (isset($setting->email))
-                                    <li><a style="color: white " href="tel+{{ $setting->email }}">{{ $setting->email }}</a></li>
+                                    <li><a style="color: white;text-transform: uppercase; " href="tel+{{ $setting->email }}"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;{{ $setting->email }}</a></li>
                                 @endif
+                       
 
 
                             </ul>
