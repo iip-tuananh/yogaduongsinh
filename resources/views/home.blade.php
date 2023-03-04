@@ -89,7 +89,7 @@
          <div class="pb-left hidden-xs">
             <h3>Tham gia tập ngay với chúng tôi</h3>
          </div>
-         <div class="pb-right"><a class="btn-site-2" href="">THAM GIA NGAY</a></div>
+         <div class="pb-right"><a class="btn-site-2" href="{{route('allProduct')}}">THAM GIA NGAY</a></div>
       </div>
    </div>
    <br>
