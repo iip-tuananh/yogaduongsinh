@@ -315,7 +315,7 @@
 	 padding: 8px 5px;
 	 font-size: 13px;
 	 line-height: 1.42857143;
-	 color: #fff;
+	 color: #000;
 	 /* background-color: transparent; */
 	 background-image: none;
 	 border: 1px solid #ededed;
@@ -323,6 +323,7 @@
 	 -webkit-box-shadow: unset;
 	 box-shadow: unset;
 	 border-radius: 10px;
+	 font-weight: 800;
 	 margin: 0 0 8px;
 	}
  .form-control:focus {
@@ -1918,12 +1919,12 @@
  }
  
  #back-to-top i {
-	 font-size: 24px;
-	 font-weight: normal;
-	 line-height: 40px;
+	 /* font-size: 24px; */
+	 /* font-weight: normal; */
+	 /* line-height: 40px; */
 	 transition: all 0.4s ease 0s;
 	 vertical-align: top;
- }
+	}
  
  #back-to-top:hover {
 	 opacity: 1;
@@ -2069,9 +2070,63 @@
 	 font-style: italic;
 	 border-left: 5px solid #1a8745;
  }
+ .bongmo{
+	width: 100%;
+	height: 1000vh;
+	background-color: #0000006b;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+ }
  #menu-site-default {
 	 float: right;
 	 margin: 0 0 20px;
 	 font-style: italic;
+ }
+.modal-dangki.active{
+	background-color: #1a8745;
+	border-radius: 10px;
+	padding: 15px;
+	position: fixed;
+	z-index: 1000;
+	width: 50%;
+	display: block !important;
+	top:100px;
+}
+.fa-xmark{
+	cursor: pointer;
+}
+ .modal-dangki{
+	background-color: #1a8745;
+	border-radius: 10px;
+	padding: 15px;
+	position: fixed;
+	z-index: 1000;
+	width: 50%;
+	display: none;
+	top:100px;
+	z-index: 101;
+
+
+ }
+ .bongmo.active{
+	display: block;
+ }
+ @media only screen and (max-width:768px){
+	.modal-dangki{
+		background-color: #1a8745;
+		border-radius: 10px;
+		padding: 15px;
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		display: none;
+		top:100px;
+		transform: translateX(-15px);
+		z-index: 101;
+	
+	
+	 }
  }
  

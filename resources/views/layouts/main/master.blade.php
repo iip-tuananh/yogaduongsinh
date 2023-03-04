@@ -53,6 +53,7 @@
         <link href="{{asset('frontend/css/sm-blue.css')}}" rel="stylesheet">
         <link href="{{asset('frontend/css/jquery.smartmenus.bootstrap.css')}}" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('frontend/css/main.css')}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         @yield('css')
         <style type="text/css">
             .show_hotline_fixed {
@@ -160,12 +161,31 @@
         </style>
     </head>
     <body>
+        <div class="bongmo"></div>
+        <div class="container">
+            <div class="modal-dangki">
+                <i class="fa-solid fa-xmark" style="float: right; font-size:20px; color:white"></i>
+                <h1 class="title-h1">Gửi thông tin đăng kí </h1>
+                <br>
+                <br>
+                <form action="{{route('postcontact')}}" method="post">
+                  @csrf
+                  <input type="text" class ="form-control" name="name" id="" placeholder="Enter Name" required>
+                  <input type="phone" class ="form-control" name="phone" id="" placeholder="Enter Phone" required>
+                  <input type="email" class ="form-control" name="email" id="" placeholder="Enter Email" required>
+                  <textarea name="mess" id="" cols="40" rows="10" required></textarea>
+                  <br>
+                  <input type="submit" class="btn-success" value="Gửi thông tin">
+                </form>
+              </div>
+        </div>
         <noscript>
         </noscript>
        @include('layouts.header.index')
             @yield('content')
         @include('layouts.footer.index')
-        <a id="back-to-top" href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <a id="back-to-top" href="#"><i class="fa-solid fa-angle-up"></i></a>
         <!-- SiteModal Required!!! -->
         <div id="sitemodal" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -200,6 +220,27 @@
             logged_in_greeting="Chào bạn, Bạn liên hệ Fanpage Nhất Dáng Nhì Da. Hỗ trợ liên hệ. Hotline: 0912.499.920"
             logged_out_greeting="Chào bạn, Bạn liên hệ Fanpage Nhất Dáng Nhì Da. Hỗ trợ liên hệ. Hotline: 0912.499.920"></div>
         <script src="{{asset('frontend/js/jquery.min.js')}}"></script>
+        <script>
+            $('.btn-site').click(function (e) { 
+              e.preventDefault();
+            $('.modal-dangki').addClass('active');
+            $('.bongmo').addClass('active');
+            
+              
+            });
+            $('.fa-xmark').click(function (e) { 
+                e.preventDefault();
+                $('.modal-dangki').removeClass('active');
+                $('.bongmo').removeClass('active');
+                
+            });
+            $('.bongmo').click(function (e) { 
+                e.preventDefault();
+                $('.modal-dangki').removeClass('active');
+                $(this).removeClass('active');
+                
+            });
+          </script>
         <script
             >var nv_base_siteurl="/",nv_lang_data="vi",nv_lang_interface="vi",nv_name_variable="nv",nv_fc_variable="op",nv_lang_variable="language",nv_module_name="home",nv_func_name="main",nv_is_user=0, nv_my_ofs=7,nv_my_abbr="ICT",nv_cookie_prefix="nv4",nv_check_pass_mstime=1738000,nv_area_admin=0,nv_safemode=0,theme_responsive=1;</script>
         <script
@@ -338,6 +379,6 @@
         <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('frontend/js/jquery.smartmenus.js')}}"></script>
         <script type="text/javascript" src="{{asset('frontend/js/jquery.smartmenus.bootstrap.js')}}"></script>
-      
+      @yield('js')
     </body>
 </html>

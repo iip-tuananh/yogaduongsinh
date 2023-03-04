@@ -55,7 +55,7 @@
        <li>
            <a href="tel:{{$setting->phone1}}" >
                <div class="simage">
-                   <img  src="{{asset('frontend/img/icon-call.svg')}}" alt="">
+                <i class="fa-solid fa-phone"></i>
                </div>
                <div class="stitle">
                   {{$setting->phone1}}
@@ -65,7 +65,7 @@
        <li>
            <a href="mailto:{{$setting->email}}" title="{{$setting->email}}">
                <div class="simage">
-                   <img  src="{{asset('frontend/img/icon-mail.svg')}}" alt="">
+                <i class="fa-solid fa-envelope"></i>
                </div>
                <div class="stitle">
                    {{$setting->email}}
@@ -74,8 +74,10 @@
        </li>
        <li>
            <a href="https://zalo.me/{{$setting->phone1}}">
-               <div class="simage">
-                   <img  src="{{asset('frontend/img/zalo-icon.svg')}}" alt="">
+               <div class="simage" style="font-size: 18px;
+               line-height: 34px;
+               font-weight: 700;">
+                 Zalo
                </div>
                <div class="stitle">
                    Kết nối zalo với chúng tôi
@@ -85,7 +87,7 @@
        <li>
            <a href="{{$setting->facebook}}" >
                <div class="simage">
-                   <img  src="{{asset('frontend/img/iconfinder_social-04_3146789.png ')}}" alt="">
+                <i class="fa-brands fa-facebook-messenger"></i>
                </div>
                <div class="stitle">
                    Chat với chúng tôi

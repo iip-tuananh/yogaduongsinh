@@ -313,6 +313,59 @@
 
 .detail .bodytext h2 {
 }
+.custom-dep{
+    width: 100%;
+  
+
+    background-color: rgb(26 135 69);
+    /* border: 1px solid red; */
+
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.title-h1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.custom-dep::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: rgba(120, 148, 131, 0);
+    height: 450px;
+    top: -15px;
+    right: -15px;
+    border-right: 10px solid rgb(26 135 69);
+    border-top: 10px dashed rgb(26 135 69);
+}
+.flex-visao{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.custom-dep::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: rgba(120, 148, 131, 0);
+    height: 50px;
+    bottom: 15px;
+    left: 15px;
+    border-left: 10px solid rgb(255, 255, 255);
+    border-bottom: 10px dashed rgb(255, 255, 255);
+}
+.flex-visao div:nth-child(1){
+    color: wheat;
+    font-size: 60px;
+}
+.flex-visao div:nth-child(2){
+    color: white;
+    font-size: 18px;
+    word-break: break-word;
+}
 @media (max-width: 767px) {
 	.showcat .listitem .item {
 		margin: 0;

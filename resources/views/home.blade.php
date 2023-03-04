@@ -140,5 +140,36 @@
          </div>
       </div>
     @endforeach
+    <div class="container">
+      <br>
+      <br>
+      <div class="s_content custom-dep">
+         <div class="title-h1"><h1>VÌ SAO CHỌN CHÚNG TÔI</h1></div>
+       
+         <div class="row">
+            <div class="col-xs-24 col-md-6 flex-visao">
+               <div><i class="fa-solid fa-globe"></i></div>
+               <div class="text-visao">Theo tiêu chuẩn của Hiệp Hội Yoga, tất cả khoá học cùng HLV  sẽ mang tới trải nghiệm về sự an toàn và hiệu quả cao.</div>
+            </div>
+            <div class="col-xs-24 col-md-6 flex-visao">
+               <div><i class="fa-solid fa-person-running"></i></div>
+               <div>
+                  Sau khoá học sẽ giúp cải thiện sức khỏe, tăng cường sự linh hoạt và cân bằng cho cơ thể và tinh thần. Thực hành yoga có thể giúp giảm stress, lo lắng và cải thiện giấc ngủ. Ngoài ra, yoga còn giúp tăng cường sức đề kháng, giảm đau và cân bằng nội tiết tố.</div>
+            </div>
+            <div class="col-xs-24 col-md-6 flex-visao">
+               <div><i class="fa-solid fa-infinity"></i></div>
+               <div>
+                  Khoá học của bạn không bao giờ hết hạn, tập mọi lúc và mọi nơi mà bạn muốn, bạn có thể xem cả trên điện thoại. Xanh Yoga sẽ làm hài lòng mọi khách hàng</div>
+            </div>
+            <div class="col-xs-24 col-md-6 flex-visao">
+               <div><i class="fa-solid fa-book-open-reader"></i></div>
+               <div>
+                  Được hướng dẫn bởi giáo viên chuyên nghiệp: Khi tập yoga ở phòng tập, bạn sẽ có giáo viên chuyên nghiệp hướng dẫn và sửa lỗi tập luyện. Giáo viên sẽ giúp bạn thực hiện các động tác đúng cách và tránh các chấn thương có thể xảy ra nếu bạn tập yoga một mình tại nhà.hơn.
+               </div>
+            </div>
+         </div>
+     
+      </div>
+    </div>
 </main>
 @endsection

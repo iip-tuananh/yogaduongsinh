@@ -35,6 +35,8 @@
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	z-index: 2;
+	font-size: 25px;
+	color: #1a8745;
 	box-shadow: 0 .5rem 1rem rgba(0,0,0,.6) !important;
 }
 .show_hotline_fixed ul li.big .simage {
