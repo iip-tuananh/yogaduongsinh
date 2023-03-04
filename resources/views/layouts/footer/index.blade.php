@@ -12,7 +12,7 @@
                         <div class="item">
 
                             <h4>Liên Hệ</h4>
-                            <ul>
+                            <ul class="pd-hehe">
                                 @if (isset($setting->phone1))
                                     <li><a style="color: white; text-transform: uppercase;" href="tel+{{ $setting->phone1 }}"><i class="fa-solid fa-phone"></i>&nbsp;{{ $setting->phone1 }}</a></li>
                                 @endif

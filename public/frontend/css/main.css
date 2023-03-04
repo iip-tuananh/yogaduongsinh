@@ -73,6 +73,9 @@
     /* border-bottom: 45px wheat solid; */
     /* padding: 10px; */
 }
+.pd-hehe li{
+padding-bottom: 5px;
+}
 .title::after{
     content: "";
     /* background-color: red; */
