@@ -89,7 +89,7 @@ export default {
       objSidebar: [
         {
           icon: "mdi mdi-crosshairs-gps menu-icon",
-          name: "Quản lý sản phẩm",
+          name: "Quản lý Khoá Học",
           route_name: "",
           sub: [
             {
