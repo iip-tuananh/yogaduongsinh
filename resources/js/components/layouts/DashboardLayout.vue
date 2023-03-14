@@ -93,7 +93,7 @@ export default {
           route_name: "",
           sub: [
             {
-              name: "Danh mục sản phẩm",
+              name: "Danh mục Khoá Học",
               path: "/product/category",
             },
             // {
@@ -105,41 +105,41 @@ export default {
             //   path: "/product/typetwo",
             // },
             {
-              name: "Danh sách sản phẩm",
+              name: "Danh sách Khoá học",
               path: "/product",
             },
           ],
         },
-        {
-          icon: "mdi mdi-newspaper menu-icon",
-          name: "Quản lý dịch vụ",
-          route_name: "",
-          sub: [
-            {
-              name: "Danh sách",
-              path: "/service",
-            }
-          ],
-        },
-        {
-          icon: "mdi mdi-newspaper menu-icon",
-          name: "Tin tức - Tuyển dụng",
-          route_name: "",
-          sub: [
-            {
-              name: "Danh mục bài viết",
-              path: "/blog/category",
-            },
-            {
-              name: "Danh sách bài viết",
-              path: "/blogs",
-            },
-            // {
-            //   name: "Loại bài viết",
-            //   path: "/blog/type",
-            // },
-          ],
-        },
+        // {
+        //   icon: "mdi mdi-newspaper menu-icon",
+        //   name: "Quản lý dịch vụ",
+        //   route_name: "",
+        //   sub: [
+        //     {
+        //       name: "Danh sách",
+        //       path: "/service",
+        //     }
+        //   ],
+        // },
+        // {
+        //   icon: "mdi mdi-newspaper menu-icon",
+        //   name: "Tin tức - Tuyển dụng",
+        //   route_name: "",
+        //   sub: [
+        //     {
+        //       name: "Danh mục bài viết",
+        //       path: "/blog/category",
+        //     },
+        //     {
+        //       name: "Danh sách bài viết",
+        //       path: "/blogs",
+        //     },
+        //     // {
+        //     //   name: "Loại bài viết",
+        //     //   path: "/blog/type",
+        //     // },
+        //   ],
+        // },
         {
           icon: "mdi mdi-newspaper menu-icon",
           name: "Trang giới thiệu",
@@ -171,10 +171,10 @@ export default {
               name: "Quản lý banner",
               path: "/banner",
             },
-            {
-              name: "Quản lý đối tác",
-              path: "/partner",
-            },
+            // {
+            //   name: "Quản lý đối tác",
+            //   path: "/partner",
+            // },
             // {
             //   name: "Thư viện ảnh",
             //   path: "/prize",
@@ -223,17 +223,17 @@ export default {
         //     }
         //   ],
         // },
-        // {
-        //   icon: "mdi mdi-shopping-music menu-icon",
-        //   name: "Quản lý tin nhắn liên hệ",
-        //   route_name: "",
-        //   sub: [
-        //     {
-        //       name: "Danh sách",
-        //       path: "/messcontact",
-        //     }
-        //   ],
-        // },
+        {
+          icon: "mdi mdi-shopping-music menu-icon",
+          name: "Quản lý tin nhắn liên hệ",
+          route_name: "",
+          sub: [
+            {
+              name: "Danh sách",
+              path: "/messcontact",
+            }
+          ],
+        },
         // {
         //   icon: "mdi mdi-newspaper menu-icon",
         //   name: "Quản lý Review",
