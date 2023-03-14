@@ -134,12 +134,12 @@ export default {
         //       name: "Danh sách bài viết",
         //       path: "/blogs",
         //     },
-            // {
-            //   name: "Loại bài viết",
-            //   path: "/blog/type",
-            // },
-          ],
-        },
+        //     {
+        //       name: "Loại bài viết",
+        //       path: "/blog/type",
+        //     },
+        //   ],
+        // },
         {
           icon: "mdi mdi-newspaper menu-icon",
           name: "Trang giới thiệu",
@@ -191,8 +191,8 @@ export default {
               name: "Cài đặt chung",
               path: "/setting",
             },
-        //   ],
-        // },
+          ],
+        },
         // {
         //   icon: "mdi mdi-shopping-music menu-icon",
         //   name: "Quản lý đơn hàng",
@@ -223,17 +223,17 @@ export default {
         //     }
         //   ],
         // },
-        {
-          icon: "mdi mdi-shopping-music menu-icon",
-          name: "Quản lý tin nhắn liên hệ",
-          route_name: "",
-          sub: [
-            {
-              name: "Danh sách",
-              path: "/messcontact",
-            }
-          ],
-        },
+        // {
+        //   icon: "mdi mdi-shopping-music menu-icon",
+        //   name: "Quản lý tin nhắn liên hệ",
+        //   route_name: "",
+        //   sub: [
+        //     {
+        //       name: "Danh sách",
+        //       path: "/messcontact",
+        //     }
+        //   ],
+        // },
         // {
         //   icon: "mdi mdi-newspaper menu-icon",
         //   name: "Quản lý Review",
